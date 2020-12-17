@@ -1,3 +1,10 @@
+// Variables and dependencies
+const fs = require("fs");
+const util = require("util");
+const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
+const writeFileAsync = util.promisify(fs.writeFile);
+
 // array of questions for user
 const questions = [
 
