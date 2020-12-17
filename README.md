@@ -3,8 +3,6 @@
 
   ![badge](https://img.shields.io/badge/license-MIT-blue)
 
-  ![](readme-generator.gif)
-  
   ## Table of Contents
   - [Description](#description)
   - [Installation](#install)
@@ -36,5 +34,7 @@
   Github: https://github.com/esober101
 
   Email: ericscottober@gmail.com
+
+  ## Walkthrough
   
-  
+  ![](readme-generator.gif)
