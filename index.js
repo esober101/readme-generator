@@ -57,10 +57,17 @@ const promptUser = () => {
     ]);
 };
 
-// function to initialize program
-function init() {
-
+// Initialize function
+async function init() {
+    console.log("Hello!");
+    try {
+        const data = await promptUser();
+        const markdown = generateMarkdown(data);
+        await writeFileAsync("README.md", markdown);
+        console.log("Your README.md has been created.");
+    } catch (err) {
+        console.log(err);
+    }
 }
 
-// function call to initialize program
 init();
